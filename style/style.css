@@ -92,3 +92,36 @@ nav{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+/* next section */
+.sopping-container{
+    margin: 5rem auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sopping-content{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+.shop-card{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.shop-card p{
+    width: 300px;
+}
+
+.shop-card img{
+    width: 78px;
+}
+
+.sopping-img{
+    width: 60%;
+}
+.sopping-img img{
+    width: 100%;
+}
