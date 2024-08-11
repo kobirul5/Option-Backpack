@@ -110,6 +110,7 @@ nav{
     display: flex;
     justify-content: start;
     align-items: center;
+    gap: .5rem;
 }
 .shop-card p{
     width: 300px;
@@ -124,4 +125,47 @@ nav{
 }
 .sopping-img img{
     width: 100%;
+}
+.backpack-title{
+    margin: 0 auto;
+    width: 90%;
+    font-size: 48px;
+    font-weight: 700;
+}
+.backpack{
+    margin: 4rem auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+.backpack-content{
+    width: 370px;
+}
+.backpack-content img {
+    width: 100%;
+}
+.backpack-content p{
+    width: 300px;
+    margin-top: 1rem;
+}
+.backpack-content h3{
+    margin-top: 3.5rem;
+    font-size: 24px;
+    font-weight: 700;
+}
+.price{
+    margin-top: 1rem;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.price h4{
+    font-size: 36px;
+    font-weight: 900;
+}
+.price button{
+    margin: 0;
+
 }
